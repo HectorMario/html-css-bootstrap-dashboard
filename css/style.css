@@ -2,24 +2,17 @@ img{
     max-width: 100%;
 }
 
-header{
-    height: 100px;
-    width: 100%;
-    background-color: aqua;
+ul{
+    list-style-type: none;
 }
 
 main{
-    height: calc(100vh - 100px);
+    height: calc(100vh - 60px);
     background-color: blue;
     display: flex;
 }
 
-.ms-nav{
-    height: calc(100vh - 100px);
-    background-color: brown;
-    width: 15%;
-    
-}
+
 
 .ms-main-container{
     overflow-y: scroll;
@@ -46,3 +39,74 @@ div.col-12.ms-cielo {
     height: 60px;
     background-color: aquamarine;
 }
+
+/* header */
+
+header{
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+}
+div.ms-max-height{
+    max-height: 100px;
+    max-width: 100%;
+}
+header .ms-width{
+    width: 30px;
+}
+
+div.ms-col-header{
+    min-width: 15%;
+    max-width: 15%;
+    
+}
+
+div.ms-search{
+
+    background-color: #E5E5E5;
+    border-radius: 5px;
+}
+
+input.ms-search-bar{
+    width: 97%;
+    border: none;
+    background-color: #E5E5E5;
+    height: 40px;
+    outline: none;
+}
+
+a img.cell{
+    max-width: 60px;
+    max-height: 60px;
+}
+
+a img.desk{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+i.ms-glass{
+    width: 5%;
+}
+
+a.yellow{
+    color: #FF8F00;
+}
+   
+    
+/* nav bar */
+
+.ms-nav{
+    height: calc(100vh - 60px);
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #0F263D;
+    width: 15%;
+    max-width: 200px;  
+}
+
+div.ms-nav i{
+    color: #fff;
+}
+
+/* content */
+
