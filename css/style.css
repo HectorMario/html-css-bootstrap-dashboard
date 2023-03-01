@@ -17,13 +17,9 @@ main{
 .ms-main-container{
     overflow-y: scroll;
     background-color: #fff;
-    width: 85%;
+    width: 100%;
 }
 
-div.ms-blue{
-    background-color: #1B72E8;
-    height: 300px;
-}
 
 div.ms-white{
     background-color: #fff;
@@ -35,10 +31,7 @@ div.ms-green{
     background-color: green;
 }
 
-div.col-12.ms-cielo {
-    height: 60px;
-    background-color: aquamarine;
-}
+
 
 /* header */
 
@@ -56,9 +49,7 @@ header .ms-width{
 }
 
 div.ms-col-header{
-    min-width: 15%;
-    max-width: 15%;
-    
+   width: 60px;
 }
 
 div.ms-search{
@@ -77,13 +68,9 @@ input.ms-search-bar{
 
 a img.cell{
     max-width: 60px;
-    max-height: 60px;
 }
 
-a img.desk{
-    max-width: 300px;
-    max-height: 300px;
-}
+
 
 i.ms-glass{
     width: 5%;
@@ -100,13 +87,42 @@ a.yellow{
     height: calc(100vh - 60px);
     background-image: url(../img/sidebar-bg.png);
     background-color: #0F263D;
-    width: 15%;
-    max-width: 200px;  
+    width: 65px; 
 }
 
 div.ms-nav i{
     color: #fff;
 }
 
+@media screen and (min-width: 993px) {
+    .ms-nav, div.ms-col-header{
+        width: 160px;
+    }
+}
+
 /* content */
+
+div.ms-blue{
+    background-color: #1B72E8;
+}
+
+div.col-12.ms-cielo {
+    color: #fff;
+}
+
+div.xd a.border{
+    height: 45px;
+    width: 45px;
+    position: relative;
+    vertical-align: middle;
+}
+
+span.badge{
+    background-color: #165BBA;
+    border-radius: 30px;
+}
+
+span.rounded-circle i{
+    padding: 2px 0;
+}
 
