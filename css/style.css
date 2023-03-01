@@ -1,0 +1,48 @@
+img{
+    max-width: 100%;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+
+main{
+    height: calc(100vh - 100px);
+    background-color: blue;
+    display: flex;
+}
+
+.ms-nav{
+    height: calc(100vh - 100px);
+    background-color: brown;
+    width: 15%;
+    
+}
+
+.ms-main-container{
+    overflow-y: scroll;
+    background-color: #fff;
+    width: 85%;
+}
+
+div.ms-blue{
+    background-color: #1B72E8;
+    height: 300px;
+}
+
+div.ms-white{
+    background-color: #fff;
+    height: 100%;
+}
+
+div.ms-green{
+    height: 200px;
+    background-color: green;
+}
+
+div.col-12.ms-cielo {
+    height: 60px;
+    background-color: aquamarine;
+}
