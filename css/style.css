@@ -126,3 +126,6 @@ span.rounded-circle i{
     padding: 2px 0;
 }
 
+td img.rounded-circle{
+    width: 30px;
+}
